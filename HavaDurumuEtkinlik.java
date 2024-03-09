@@ -11,8 +11,10 @@ public class HavaDurumuEtkinlik {
 
         if(weather < 5)
             System.out.println("Kayak yapmanızı öneriyoruz.");
-        else if(weather < 15)
+        else if(weather < 10)
             System.out.println("Sinemaya gitmenizi öneriyoruz.");
+        else if(weather <= 15)
+            System.out.println("Sinemaya gitmenizi veya piknik yapmanızı öneriyoruz.");
         else if(weather < 25)
             System.out.println("Piknik yapmanızı öneriyoruz.");
         else
